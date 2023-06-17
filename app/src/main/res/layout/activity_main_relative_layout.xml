@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgGoogleLogo"
+        android:layout_width="230dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:src="@drawable/google_logo" />
+
+    <TextView
+        android:id="@+id/txtSignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgGoogleLogo"
+        android:layout_centerInParent="true"
+        android:text="Sign In"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/txtGoogleAcc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:layout_below="@id/txtSignIn"
+        android:layout_centerInParent="true"
+        android:text="with your Google Account"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtGoogleAcc"
+        android:layout_marginHorizontal="20dp"
+        android:hint="Username or email" />
+
+    <TextView
+        android:id="@+id/txtForget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_below="@id/etEmail"
+        android:text="Forget email?"
+        android:textColor="#0091EA"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/txtCreateAcc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="35dp"
+        android:text="Create Account"
+        android:textColor="#0091EA"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:backgroundTint="#0091EA"
+        android:text="Next"
+        android:layout_margin="18dp"
+        android:textSize="20sp" />
+
+</RelativeLayout>
